@@ -11,7 +11,7 @@
 
         const img = document.createElement('img');
         img.src = `assets/images/gallerypic${i}.webp`;
-        img.alt = '';
+        img.alt = `Flower arrangement ${i} by The Flower Works`;
         img.loading = 'lazy';
         card.appendChild(img);
 
