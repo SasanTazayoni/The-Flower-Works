@@ -1258,28 +1258,6 @@ footer li {
   opacity: 0.6;
 }
 
-@media screen and (max-width: 428px) {
-  .footer__links {
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-  }
-}
-
-.github-link i {
-  width: max-content;
-  border-radius: 10px;
-  font-size: 30px;
-  color: var(--color-primary);
-  transition: all 0.6s;
-  padding: 15px 0;
-}
-
-.github-link i:hover {
-  transform: scale(1.2);
-  color: var(--color-secondary);
-}
-
 @media screen and (max-width: 1024px) {
   .footer__menu li {
     padding: 0 16px;
@@ -1333,6 +1311,12 @@ footer li {
 
   .footer__logo {
     display: none;
+  }
+
+  .footer__links {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
   }
 }
 
