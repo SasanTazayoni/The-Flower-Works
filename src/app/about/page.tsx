@@ -46,7 +46,7 @@ export default function About() {
                 href="https://www.instagram.com/flowerworksw10/?hl=en-gb"
                 className="bold link"
                 target="_blank"
-                rel="noopener"
+                rel="noopener noreferrer"
                 aria-label="Visit our Instagram page (opens in a new tab)"
               >
                 Instagram

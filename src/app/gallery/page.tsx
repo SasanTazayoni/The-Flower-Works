@@ -39,7 +39,7 @@ export default function Gallery() {
             <a
               href="https://www.instagram.com/flowerworksw10/?hl=en-gb"
               target="_blank"
-              rel="noopener"
+              rel="noopener noreferrer"
             >
               Instagram
             </a>

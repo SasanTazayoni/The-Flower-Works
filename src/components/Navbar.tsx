@@ -41,7 +41,7 @@ export default function Navbar() {
         <a
           href="https://www.instagram.com/flowerworksw10/?hl=en-gb"
           target="_blank"
-          rel="noopener"
+          rel="noopener noreferrer"
           aria-label="Visit our Instagram page (opens in a new tab)"
           className="instagram-link"
           data-instagram-tooltip="Check out our Instagram"
