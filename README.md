@@ -74,7 +74,7 @@ The wireframes do not fully correspond with the end product due to multiple chan
 ### Current features
 
 - All pages are designed using Responsive Design and are fully responsive on all devices.
-- Each page includes a footer with navigation links, the company logo, legal pages, copyright information and a GitHub link.
+- Each page includes a footer with navigation links, the company logo, legal pages, and copyright information.
   <br>
   <br> ![Footer](documentation/footer.png)
   <br>
@@ -83,10 +83,10 @@ The wireframes do not fully correspond with the end product due to multiple chan
   <br>
   <br> Logo:
   <br>
-  <br> ![Logo](assets/images/flowerworkslogo.png)
+  <br> ![Logo](public/images/flowerworkslogo.png)
   <br> Small logo:
   <br>
-  <br> ![Logo](assets/images/flowerworkslogosmall.png)
+  <br> ![Logo](public/images/flowerworkslogosmall.png)
   <br>
 - Instagram icon has a tooltip hover-effect for clarity.
   <br>
