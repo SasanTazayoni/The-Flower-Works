@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import RippleLink from '@/components/RippleLink';
+import PageHeader from '@/components/PageHeader';
 
 export const metadata: Metadata = {
   title: 'About The Flower Works | Family Florist, West London',
@@ -22,9 +23,7 @@ export default function About() {
     <main id="main-content">
       <section className="block">
         <div className="container">
-          <header className="page__header">
-            <h1>About us</h1>
-          </header>
+          <PageHeader>About us</PageHeader>
           <article className="about">
             <img
               src="/images/about-image.webp"

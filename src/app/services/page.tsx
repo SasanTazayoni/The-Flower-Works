@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import RippleLink from '@/components/RippleLink';
+import PageHeader from '@/components/PageHeader';
 
 export const metadata: Metadata = {
   title: 'Floral Services & Pricing | The Flower Works West London',
@@ -53,9 +54,7 @@ export default function Services() {
     <main id="main-content">
       <section className="block">
         <div className="container" data-aos="fade-in">
-          <header className="page__header">
-            <h1>Services and pricing</h1>
-          </header>
+          <PageHeader>Services and pricing</PageHeader>
           <p>
             At The Flower Works, we are dedicated to providing a wide range of exceptional floral
             services tailored to meet all your needs. Our skilled team specialises in crafting

@@ -1,4 +1,6 @@
 import type { Metadata } from 'next';
+import PageHeader from '@/components/PageHeader';
+import ContactDetails from '@/components/ContactDetails';
 
 export const metadata: Metadata = {
   title: 'Terms & Conditions | The Flower Works West London',
@@ -21,9 +23,7 @@ export default function Terms() {
     <main id="main-content">
       <section className="block--grey">
         <div className="container legal-content">
-          <header className="page__header">
-            <h1>Terms &amp; Conditions</h1>
-          </header>
+          <PageHeader>Terms &amp; Conditions</PageHeader>
           <p>
             Please read these terms and conditions carefully before placing an order or using our
             services. By enquiring or placing an order with The Flower Works, you agree to the
@@ -102,15 +102,7 @@ export default function Terms() {
           <div className="legal-content__section">
             <h2>Contact us</h2>
             <p>If you have any questions about these terms, please get in touch:</p>
-            <address>
-              <p>
-                <span className="bold">Telephone:</span> 0208 960 7114
-              </p>
-              <p>
-                <span className="bold">Email:</span>{' '}
-                <a href="mailto:theflowerworks@live.com">theflowerworks@live.com</a>
-              </p>
-            </address>
+            <ContactDetails />
           </div>
         </div>
       </section>

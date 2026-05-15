@@ -1,4 +1,6 @@
 import type { Metadata } from 'next';
+import PageHeader from '@/components/PageHeader';
+import ContactDetails from '@/components/ContactDetails';
 
 export const metadata: Metadata = {
   title: 'Privacy Policy | The Flower Works West London Florist',
@@ -21,21 +23,11 @@ export default function PrivacyPolicy() {
     <main id="main-content">
       <section className="block--grey">
         <div className="container legal-content">
-          <header className="page__header">
-            <h1>Privacy Policy</h1>
-          </header>
+          <PageHeader>Privacy Policy</PageHeader>
           <p>This privacy notice tells you what to expect us to do with your personal information.</p>
           <div className="legal-content__section">
             <h2>Contact details</h2>
-            <address>
-              <p>
-                <span className="bold">Telephone:</span> 0208 960 7114
-              </p>
-              <p>
-                <span className="bold">Email:</span>{' '}
-                <a href="mailto:theflowerworks@live.com">theflowerworks@live.com</a>
-              </p>
-            </address>
+            <ContactDetails />
           </div>
           <div className="legal-content__section">
             <h2>What information we collect, use, and why</h2>

@@ -1,4 +1,6 @@
 import type { Metadata } from 'next';
+import PageHeader from '@/components/PageHeader';
+import ContactDetails from '@/components/ContactDetails';
 
 export const metadata: Metadata = {
   title: 'Contact Us | The Flower Works Florist, West London',
@@ -21,24 +23,12 @@ export default function Contact() {
     <main id="main-content">
       <section className="block">
         <div className="container">
-          <header className="page__header">
-            <h1>Contact us</h1>
-          </header>
+          <PageHeader>Contact us</PageHeader>
           <div className="card card--grey grid--1x2" data-aos="flip-down">
             <div className="contact-card__content">
               <p>If you have any questions please contact us via the following:</p>
               <br />
-              <address>
-                <p>
-                  Telephone: <span className="bold">0208 960 7114</span>
-                </p>
-                <p>
-                  Email:{' '}
-                  <span className="bold">
-                    <a href="mailto:theflowerworks@live.com">theflowerworks@live.com</a>
-                  </span>
-                </p>
-              </address>
+              <ContactDetails />
               <br />
               <p>Our opening hours are:</p>
               <br />

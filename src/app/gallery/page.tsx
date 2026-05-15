@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import PageHeader from '@/components/PageHeader';
 
 export const metadata: Metadata = {
   title: 'Flower Gallery | The Flower Works West London Florist',
@@ -20,9 +21,7 @@ export default function Gallery() {
   return (
     <main id="main-content">
       <section className="block">
-        <header className="page__header">
-          <h1>Our flowers</h1>
-        </header>
+        <PageHeader>Our flowers</PageHeader>
         <ul className="grid--1x4" data-aos="fade-in">
           {Array.from({ length: 24 }, (_, i) => i + 1).map((n) => (
             <li key={n} className="card gallery-card" data-gallery-card="">
