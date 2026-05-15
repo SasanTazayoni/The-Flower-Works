@@ -62,7 +62,7 @@ export default function Navbar() {
           <i className="fa-solid fa-bars" aria-hidden="true"></i>
         </button>
       </div>
-      <ul className={`collapsible__content${menuOpen ? ' collapsible--expanded' : ''}`}>
+      <ul className={`collapsible__content${menuOpen ? ' collapsible--expanded' : ''}`} inert={!menuOpen || undefined}>
         {links.map(({ href, label, icon }) => (
           <li key={href} className="nav__item">
             <Link href={href}>
