@@ -1,31 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://theflowerworks.co.uk/index.html</loc>
+        <loc>https://theflowerworks.co.uk/</loc>
+        <lastmod>2026-05-15</lastmod>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://theflowerworks.co.uk/about.html</loc>
+        <loc>https://theflowerworks.co.uk/about</loc>
+        <lastmod>2026-05-15</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://theflowerworks.co.uk/services.html</loc>
+        <loc>https://theflowerworks.co.uk/services</loc>
+        <lastmod>2026-05-15</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://theflowerworks.co.uk/gallery.html</loc>
+        <loc>https://theflowerworks.co.uk/gallery</loc>
+        <lastmod>2026-05-15</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://theflowerworks.co.uk/contact.html</loc>
+        <loc>https://theflowerworks.co.uk/contact</loc>
+        <lastmod>2026-05-15</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://theflowerworks.co.uk/terms.html</loc>
+        <loc>https://theflowerworks.co.uk/terms</loc>
+        <lastmod>2026-05-15</lastmod>
         <priority>0.3</priority>
     </url>
     <url>
-        <loc>https://theflowerworks.co.uk/privacy-policy.html</loc>
+        <loc>https://theflowerworks.co.uk/privacy-policy</loc>
+        <lastmod>2026-05-15</lastmod>
         <priority>0.3</priority>
     </url>
 </urlset>
