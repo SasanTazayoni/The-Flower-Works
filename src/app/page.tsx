@@ -28,9 +28,9 @@ const schema = {
   image: 'https://theflowerworks.co.uk/images/hero-image.webp',
   address: {
     '@type': 'PostalAddress',
-    streetAddress: '',
+    streetAddress: '24A North Pole Road',
     addressLocality: 'London',
-    postalCode: 'W10',
+    postalCode: 'W10 6QL',
     addressCountry: 'GB',
   },
   geo: {
