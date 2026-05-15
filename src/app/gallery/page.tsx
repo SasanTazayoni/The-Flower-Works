@@ -5,11 +5,11 @@ export const metadata: Metadata = {
   title: 'Flower Gallery | The Flower Works West London Florist',
   description:
     'Browse photos of our fresh flower arrangements, seasonal bouquets, wreaths and tributes made by The Flower Works florist in West London.',
-  alternates: { canonical: 'https://theflowerworks.co.uk/gallery.html' },
+  alternates: { canonical: 'https://theflowerworks.co.uk/gallery' },
   openGraph: {
     type: 'website',
     siteName: 'The Flower Works',
-    url: 'https://theflowerworks.co.uk/gallery.html',
+    url: 'https://theflowerworks.co.uk/gallery',
     title: 'Flower Gallery | The Flower Works West London Florist',
     description:
       'Browse photos of our fresh flower arrangements, seasonal bouquets, wreaths and tributes made by The Flower Works florist in West London.',

@@ -6,11 +6,11 @@ export const metadata: Metadata = {
   title: 'Contact Us | The Flower Works Florist, West London',
   description:
     'Contact The Flower Works by phone, email or our online enquiry form. Open Mon–Fri 9am–3:30pm, Sat 9am–1pm. Local delivery across West London.',
-  alternates: { canonical: 'https://theflowerworks.co.uk/contact.html' },
+  alternates: { canonical: 'https://theflowerworks.co.uk/contact' },
   openGraph: {
     type: 'website',
     siteName: 'The Flower Works',
-    url: 'https://theflowerworks.co.uk/contact.html',
+    url: 'https://theflowerworks.co.uk/contact',
     title: 'Contact Us | The Flower Works Florist, West London',
     description:
       'Contact The Flower Works by phone, email or our online enquiry form. Open Mon–Fri 9am–3:30pm, Sat 9am–1pm. Local delivery across West London.',

@@ -6,11 +6,11 @@ export const metadata: Metadata = {
   title: 'Terms & Conditions | The Flower Works West London',
   description:
     'Read the terms and conditions for ordering flowers from The Flower Works, a florist based in West London serving the local community.',
-  alternates: { canonical: 'https://theflowerworks.co.uk/terms.html' },
+  alternates: { canonical: 'https://theflowerworks.co.uk/terms' },
   openGraph: {
     type: 'website',
     siteName: 'The Flower Works',
-    url: 'https://theflowerworks.co.uk/terms.html',
+    url: 'https://theflowerworks.co.uk/terms',
     title: 'Terms & Conditions | The Flower Works West London',
     description:
       'Read the terms and conditions for ordering flowers from The Flower Works, a florist based in West London serving the local community.',

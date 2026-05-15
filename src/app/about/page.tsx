@@ -6,11 +6,11 @@ export const metadata: Metadata = {
   title: 'About The Flower Works | Family Florist, West London',
   description:
     'Meet the family team behind The Flower Works — a West London florist with over 30 years of experience in fresh flowers, plants and funeral tributes.',
-  alternates: { canonical: 'https://theflowerworks.co.uk/about.html' },
+  alternates: { canonical: 'https://theflowerworks.co.uk/about' },
   openGraph: {
     type: 'website',
     siteName: 'The Flower Works',
-    url: 'https://theflowerworks.co.uk/about.html',
+    url: 'https://theflowerworks.co.uk/about',
     title: 'About The Flower Works | Family Florist, West London',
     description:
       'Meet the family team behind The Flower Works — a West London florist with over 30 years of experience in fresh flowers, plants and funeral tributes.',

@@ -6,11 +6,11 @@ export const metadata: Metadata = {
   title: 'Privacy Policy | The Flower Works West London Florist',
   description:
     'The privacy policy of The Flower Works explains how we collect, use and protect your personal data when you use our website or order flowers.',
-  alternates: { canonical: 'https://theflowerworks.co.uk/privacy-policy.html' },
+  alternates: { canonical: 'https://theflowerworks.co.uk/privacy-policy' },
   openGraph: {
     type: 'website',
     siteName: 'The Flower Works',
-    url: 'https://theflowerworks.co.uk/privacy-policy.html',
+    url: 'https://theflowerworks.co.uk/privacy-policy',
     title: 'Privacy Policy | The Flower Works West London Florist',
     description:
       'The privacy policy of The Flower Works explains how we collect, use and protect your personal data when you use our website or order flowers.',

@@ -6,11 +6,11 @@ export const metadata: Metadata = {
   title: 'Floral Services & Pricing | The Flower Works West London',
   description:
     "From bouquets at £30 to funeral wreaths and oasis arrangements, explore The Flower Works' full range of floral services and current pricing.",
-  alternates: { canonical: 'https://theflowerworks.co.uk/services.html' },
+  alternates: { canonical: 'https://theflowerworks.co.uk/services' },
   openGraph: {
     type: 'website',
     siteName: 'The Flower Works',
-    url: 'https://theflowerworks.co.uk/services.html',
+    url: 'https://theflowerworks.co.uk/services',
     title: 'Floral Services & Pricing | The Flower Works West London',
     description:
       "From bouquets at £30 to funeral wreaths and oasis arrangements, explore The Flower Works' full range of floral services and current pricing.",
