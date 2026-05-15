@@ -63,10 +63,10 @@ export default function Services() {
             floral creations.
           </p>
           <div className="services__images" data-aos="fade-in">
-            <img src="/images/tulips.jpg" className="services__image" alt="Tulips" loading="lazy" />
-            <img src="/images/roses.jpg" className="services__image" alt="Roses" loading="lazy" />
-            <img src="/images/sunflowers.jpg" className="services__image" alt="Sunflowers" loading="lazy" />
-            <img src="/images/lilies.jpg" className="services__image" alt="Lilies" loading="lazy" />
+            <img src="/images/tulips.jpg" className="services__image" alt="Tulips" loading="lazy" width={200} height={200} />
+            <img src="/images/roses.jpg" className="services__image" alt="Roses" loading="lazy" width={200} height={200} />
+            <img src="/images/sunflowers.jpg" className="services__image" alt="Sunflowers" loading="lazy" width={200} height={200} />
+            <img src="/images/lilies.jpg" className="services__image" alt="Lilies" loading="lazy" width={200} height={200} />
           </div>
           <h2 className="pricing__heading">Discover our pricing options:</h2>
           <ul className="pricing-list">
@@ -111,30 +111,10 @@ export default function Services() {
       <section className="block">
         <div className="container">
           <div className="services__images" data-aos="fade-in">
-            <img
-              src="/images/chrysanthemums.jpg"
-              className="services__image"
-              alt="Chrysanthemums"
-              loading="lazy"
-            />
-            <img
-              src="/images/dahlias.jpg"
-              className="services__image"
-              alt="Dahlias"
-              loading="lazy"
-            />
-            <img
-              src="/images/hyacinths.jpg"
-              className="services__image"
-              alt="Hyacinths"
-              loading="lazy"
-            />
-            <img
-              src="/images/orchids.jpg"
-              className="services__image"
-              alt="Orchids"
-              loading="lazy"
-            />
+            <img src="/images/chrysanthemums.jpg" className="services__image" alt="Chrysanthemums" loading="lazy" width={200} height={200} />
+            <img src="/images/dahlias.jpg" className="services__image" alt="Dahlias" loading="lazy" width={200} height={200} />
+            <img src="/images/hyacinths.jpg" className="services__image" alt="Hyacinths" loading="lazy" width={200} height={200} />
+            <img src="/images/orchids.jpg" className="services__image" alt="Orchids" loading="lazy" width={200} height={200} />
           </div>
           <div className="button__container">
             <RippleLink href="/gallery">Gallery</RippleLink>
