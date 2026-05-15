@@ -1,6 +1,6 @@
 # The Flower Works
 
-![HTML](./tech/html.png) ![CSS](./tech/css.png) ![Typescript](./tech/typescript.png) ![React](./tech/react.png) ![NextJS](./tech/next.png) ![Gitpod](./tech/gitpod.png) ![Claude](./tech/claude.png) ![VSCode](./tech/vscode.png) ![Vercel](./tech/vercel.png) ![Hostinger](tech/hostinger.png)
+![HTML](./tech/html.png) ![CSS](./tech/css.png) ![Typescript](./tech/typescript.png) ![React](./tech/react.png) ![NextJS](./tech/next.png) ![Gitpod](./tech/gitpod.png) ![Claude](./tech/claude.png) ![Vercel](./tech/vercel.png) ![Hostinger](tech/hostinger.png)
 
 Welcome to The Flower Works README file! This has all the essential information about the florist business website.
 
