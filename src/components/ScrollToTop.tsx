@@ -23,8 +23,13 @@ export default function ScrollToTop() {
   }, []);
 
   return (
-    <a href="#" className="scroll-up-link" aria-label="Scroll to top">
+    <button
+      type="button"
+      className="scroll-up-link"
+      aria-label="Scroll to top"
+      onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+    >
       <i className="fa-solid fa-angles-up"></i>
-    </a>
+    </button>
   );
 }

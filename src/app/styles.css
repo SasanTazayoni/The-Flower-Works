@@ -1105,6 +1105,8 @@ ul > .nav__item {
 .scroll-up-link {
   display: inline-block;
   opacity: 0;
+  background: none;
+  cursor: pointer;
   text-align: center;
   position: fixed;
   right: 3rem;
