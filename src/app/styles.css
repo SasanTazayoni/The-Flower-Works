@@ -1610,6 +1610,10 @@ body > footer li {
   margin: auto 0;
 }
 
+.contact-card__content > * + * {
+  margin-top: 1rem;
+}
+
 .contact-card__image {
   padding: 10px;
 }

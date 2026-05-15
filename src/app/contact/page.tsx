@@ -27,18 +27,10 @@ export default function Contact() {
           <div className="card card--grey grid--1x2" data-aos="flip-down">
             <div className="contact-card__content">
               <p>If you have any questions please contact us via the following:</p>
-              <br />
               <ContactDetails />
-              <br />
               <p>Our opening hours are:</p>
-              <br />
-              <p>
-                <span className="bold">
-                  Mondays - Fridays at 9:00AM - 3:30PM
-                  <br />
-                  Saturdays at 9:00AM - 1:00PM
-                </span>
-              </p>
+              <p><span className="bold">Mondays - Fridays at 9:00AM - 3:30PM</span></p>
+              <p><span className="bold">Saturdays at 9:00AM - 1:00PM</span></p>
             </div>
             <img
               src="/images/contact-owner.webp"
