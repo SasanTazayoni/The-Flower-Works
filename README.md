@@ -281,14 +281,27 @@ As the results show, the website is highly compatible across all browsers.
 
 ## Deployment
 
-1. Log into [GitHub](https://github.com/).
-2. Locate the [repository](https://github.com/SasanTazayoni/The-flower-works).
-3. Locate the settings option along the options bar at the top of the page.
-4. Locate the 'Pages' option on the left side bar and click on it.
-5. Under the 'Branch' subheading there should be a drop-down menu - select 'Master' from the branch options.
-6. Click the save button.
-7. Github pages will build your website with the code supplied and begin hosting it when it is completed - the process usually takes a few minutes.
-8. The website URL will now be visible on the green bar under the section header. This will remain there permanently and you can refer back to it at any time.
+The site is built with Next.js static export and hosted on [Hostinger](https://www.hostinger.co.uk/).
+
+### Build
+
+1. Clone the repository and install dependencies:
+   ```bash
+   npm install
+   ```
+2. Generate the static output:
+   ```bash
+   npm run build
+   ```
+   This produces an `out/` directory containing flat HTML, CSS, JS, and asset files.
+
+### Deploy to Hostinger
+
+3. Log into your [Hostinger](https://www.hostinger.co.uk/) control panel.
+4. Open the **File Manager** for your domain (or connect via FTP).
+5. Navigate to the `public_html` directory.
+6. Upload the entire contents of the `out/` directory into `public_html`.
+7. The site will be live at [https://www.theflowerworks.co.uk](https://www.theflowerworks.co.uk).
 
 ## Credits
 
