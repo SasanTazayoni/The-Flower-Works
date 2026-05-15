@@ -1,6 +1,6 @@
 # The Flower Works
 
-![HTML](tech/html.png) ![CSS](tech/css.png) ![Javascript](tech/javascript.png) ![Hostinger](tech/hostinger.png) ![Gitpod](tech/gitpod.png)
+![Next.js](tech/next.png) ![TypeScript](tech/typescript.png) ![React](tech/react.png) ![CSS](tech/css.png) ![Hostinger](tech/hostinger.png) ![Claude](tech/claude.png)
 
 Welcome to The Flower Works README file! This has all the essential information about the florist business website.
 
@@ -137,12 +137,14 @@ The wireframes do not fully correspond with the end product due to multiple chan
 
 ### Languages
 
-- HTML5
+- TypeScript
 - CSS3
-- JavaScript
 
 ## Frameworks, libraries and programs used
 
+- [Next.js](https://nextjs.org/) used as the React framework with App Router and static export for Hostinger deployment.
+- [React](https://react.dev/) used as the component model for building the UI.
+- [TypeScript](https://www.typescriptlang.org/) used for type-safe JavaScript throughout the codebase.
 - [Font Awesome](https://fontawesome.com/) used for icons.
 - [Coolors](https://coolors.co/) used to display colour palette used on the website.
 - [Looka](https://looka.com/) used to create brand logo.
@@ -150,8 +152,7 @@ The wireframes do not fully correspond with the end product due to multiple chan
 - [Google Fonts](https://fonts.google.com/) used to import 'Playfair Display' and 'Roboto' fonts.
 - [Google Maps](https://www.google.co.uk/maps) used to import business location to the contact page.
 - [Github](https://github.com/) used to host repository.
-- [Gitpod](https://www.gitpod.io/) used to develop project and organise version control.
-- [Github pages](https://pages.github.com/) used to deploy the website.
+- [VS Code](https://code.visualstudio.com/) used to develop project and organise version control.
 - [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) used for performance review.
 - [Caniuse](https://caniuse.com/) used to check compatibility of code syntax with other browsers.
 - [PowerMapper](https://www.powermapper.com/) used to check compatibility of website with other browsers.
