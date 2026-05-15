@@ -551,9 +551,6 @@ nav {
   padding: 5px;
 }
 
-.nav__logo--small {
-  display: none;
-}
 
 nav li {
   list-style: none;
@@ -716,18 +713,13 @@ ul > .nav__item {
   }
 
   .nav__logo {
-    display: none;
+    height: 80px;
+    width: 80px;
+    padding: 10px;
   }
 
   .nav__component > .instagram-link {
     margin-right: 20px;
-  }
-
-  .nav__logo--small {
-    display: inline;
-    height: 80px;
-    width: 80px;
-    padding: 10px;
   }
 
   .nav__menu {
@@ -797,7 +789,7 @@ ul > .nav__item {
 }
 
 @media screen and (max-width: 428px) {
-  .nav__logo--small {
+  .nav__logo {
     height: 60px;
     width: 60px;
   }

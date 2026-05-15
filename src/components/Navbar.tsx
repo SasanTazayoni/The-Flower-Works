@@ -18,20 +18,16 @@ export default function Navbar() {
 
   return (
     <nav data-navbar="">
-      <img
-        src="/images/flowerworkslogo.png"
-        className="nav__logo nav__component"
-        alt="The Flower Works company logo"
-        width={305}
-        height={302}
-      />
-      <img
-        src="/images/flowerworkslogosmall.png"
-        className="nav__logo--small nav__component"
-        alt="The Flower Works company logo without text"
-        width={140}
-        height={144}
-      />
+      <picture className="nav__component">
+        <source media="(max-width: 768px)" srcSet="/images/flowerworkslogosmall.png" />
+        <img
+          src="/images/flowerworkslogo.png"
+          className="nav__logo"
+          alt="The Flower Works company logo"
+          width={140}
+          height={140}
+        />
+      </picture>
       <ul className="nav__component nav__menu">
         {links.map(({ href, label }) => (
           <li key={href}>
