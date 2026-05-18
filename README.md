@@ -166,7 +166,6 @@ The wireframes do not fully correspond with the end product due to multiple chan
 - [Unsplash](https://unsplash.com/) used to obtain placeholder pictures for the gallery and services page.
 - [Pexels](https://www.pexels.com/) used to obtain placeholder pictures for the gallery and services page, and the hero image on the home page.
 - [The Flower Works Instagram](https://www.instagram.com/flowerworksw10/?hl=en-gb) used with permission from business owners for placeholder images for the about and contact page.
-- [StackOverflow](https://stackoverflow.com/) used to problem solve and deal with queries.
 - [Cloudconvert](https://cloudconvert.com/) used to convert images to webp format.
 
 ## Testing
