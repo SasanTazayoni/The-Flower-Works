@@ -1,11 +1,11 @@
-import Link from 'next/link';
+import Link from "next/link";
 
 const links = [
-  { href: '/', label: 'Home' },
-  { href: '/about', label: 'About' },
-  { href: '/services', label: 'Services' },
-  { href: '/gallery', label: 'Gallery' },
-  { href: '/contact', label: 'Contact' },
+  { href: "/", label: "Home" },
+  { href: "/about", label: "About" },
+  { href: "/services", label: "Services" },
+  { href: "/gallery", label: "Gallery" },
+  { href: "/contact", label: "Contact" },
 ];
 
 export default function Footer() {
@@ -32,7 +32,7 @@ export default function Footer() {
           <Link href="/terms">Terms &amp; Conditions</Link>
           <Link href="/privacy-policy">Privacy Policy</Link>
         </div>
-        <p>&copy; The Flower Works {new Date().getFullYear()}. All rights reserved.</p>
+        <p>&copy; The Flower Works 2023. All rights reserved.</p>
       </section>
     </footer>
   );
